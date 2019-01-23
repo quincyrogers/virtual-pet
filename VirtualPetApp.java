@@ -14,7 +14,7 @@ public class VirtualPetApp {
 		System.out.println("Say Hello to your little friend " + namePuppy + "!");
 		
 		
-		VirtualPet yourPal = new VirtualPet(5, 5, 5, 5, 5);
+		VirtualPet yourPal = new VirtualPet(50, 50, 50, 50, 50);
 
 		String decision = "";
 		while (!decision.equalsIgnoreCase("Yes")) {
